@@ -25,7 +25,6 @@ unsigned long largest_prime_factor(unsigned long n) {
 
 int main(int argc, char** argv) {
   unsigned long factor;
-  unsigned long i = 1;
 
   factor = largest_prime_factor(600851475143);
   printf("%ld\n", factor);
